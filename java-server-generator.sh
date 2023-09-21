@@ -1,1 +1,1 @@
-openapi-generator-cli generate -g spring -o generated -i openapischema.yaml --additional-properties=modelPackage=com.payouth.model,apiPackage=com.payouth.api,interfaceOnly=true
+openapi-generator-cli generate -g spring -o generated -i openapischema.yaml --additional-properties=modelPackage=com.payouth.apiserver.model,apiPackage=com.payouth.apiserver.api,interfaceOnly=true,skipDefaultInterface=true,useSpringBoot3=true
