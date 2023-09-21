@@ -866,6 +866,13 @@ paths:
       summary: Create Election Stage
       description: Create a new Election Stage.
       operationId: createElectionStage
+      parameters:
+        - name: electionId
+          in: path
+          description: Election ID
+          required: true
+          schema:
+            type: string
       requestBody:
         description: Created Election object
         content:
